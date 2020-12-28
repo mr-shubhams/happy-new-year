@@ -79,7 +79,7 @@ body {
 
 @media only screen and (max-width:800px) {
     .main{
-
+        backdrop-filter: blur(10px);
         max-width: 60vw;
         max-height: auto;
         backdrop-filter: blur(10px);
@@ -89,9 +89,9 @@ body {
     }
     
   }
-  @media only screen and (max-width:500px) {
+  @media only screen and (max-width:500px) { */
     .main{
-
+        backdrop-filter: blur(10px);
         max-width: 65vw;
         max-height: auto;
         margin-bottom: 20px;
@@ -123,17 +123,5 @@ body {
     transform: translateY(-50%);
   }
   
-  .icon-bar a {
-    transition: all 2s ease;
-    color: rgb(153, 0, 255);
-    font-size: 15px;
-  }
   
-  .icon-bar a:hover {
-    color: rgb(255, 0, 0);
-  }
   
-  .content {
-    margin-left: 75px;
-    font-size: 30px;
-  }
